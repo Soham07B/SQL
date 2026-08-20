@@ -1,0 +1,5 @@
+SELECT age, height FROM human;
+SELECT * FROM human;
+
+SELECT * FROM Customers
+WHERE CustomerID = 1;
