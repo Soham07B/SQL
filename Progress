@@ -3,3 +3,5 @@ SELECT * FROM human;
 
 SELECT * FROM Customers
 WHERE CustomerID = 1;
+SELECT * FROM Products
+ORDER BY Price;
