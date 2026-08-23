@@ -3,5 +3,13 @@ SELECT * FROM human;
 
 SELECT * FROM Customers
 WHERE CustomerID = 1;
+
 SELECT * FROM Products
 ORDER BY Price;
+
+SELECT column1, column2 
+FROM Table
+ORDER BY column1, column2 ASC|DESC;
+
+SELECT * FROM Products
+ORDER BY Price DESC;
