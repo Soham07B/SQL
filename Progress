@@ -13,3 +13,7 @@ ORDER BY column1, column2 ASC|DESC;
 
 SELECT * FROM Products
 ORDER BY Price DESC;
+
+SELECT * INTO newtable [IN external_db]
+FROM sourcetable
+WHERE condition;
