@@ -17,3 +17,7 @@ ORDER BY Price DESC;
 SELECT * INTO newtable [IN external_db]
 FROM sourcetable
 WHERE condition;
+
+SELECT column_name(s)
+FROM table_name
+WHERE column_name operator ALL (subquery);
